@@ -3,7 +3,7 @@ package com.lineComputation;
 import java.util.Scanner;
 
 public class LineComputation {
-    public static void main(String[] args) {
+    public void equalCompareMethod() {
         System.out.println("WELCOME TO LINE COMPARISON PROGRAM ");
         Scanner scanner=new Scanner(System.in);
         //local variables
