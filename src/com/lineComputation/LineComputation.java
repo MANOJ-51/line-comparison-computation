@@ -42,11 +42,13 @@ public class LineComputation {
         System.out.println("LENGTH OF THE LINE-1 IS : "+lengthOfTheLine1);
         System.out.println("LENGTH OF THE LINE-2 IS : "+lengthOfTheLine2);
 
-        //checking two lines are equal or not
+        //checking two line-1 is equal or greater or lesser than line-2
         if (lengthOfTheLine1==lengthOfTheLine2){
-            System.out.println("line-1 is equal to line-2 ");
+            System.out.println("line-1 is EQUAL to line-2 ");
+        }else if(lengthOfTheLine1<lengthOfTheLine2){
+            System.out.println("line-1 is LESSER THAN to line-2 ");
         }else{
-            System.out.println("line-1 is not equal to line-2 ");
+            System.out.println("line-1 is GREATER THAN to line-2");
         }
 
     }
